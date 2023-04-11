@@ -4,7 +4,7 @@ import SwiftUI
 struct MyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RearrangeExample(topColors: TopColors(image: UIImage(named: "Yelson1")!))
         }
     }
 }
